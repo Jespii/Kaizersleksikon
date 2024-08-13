@@ -75,6 +75,8 @@ main{
 h1, h2, p{
   text-align: center;
   color: white;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 .center {
   width: 200px;
