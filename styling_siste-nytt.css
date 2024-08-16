@@ -1,0 +1,137 @@
+@font-face {
+    font-family: poppins;
+    src:url(Poppins-Medium.ttf);
+  }
+  nav ul{
+    width: 90%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    }
+    nav li{
+    height: 50px;
+    }
+    nav a{
+    height: 95%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: red;
+    }
+    nav a:hover{
+    text-decoration: underline;
+    }
+    nav li:first-child{
+    margin-right: auto;
+    }
+    .sidebar{
+      position: fixed;
+      top: 0; 
+      right: 0;
+      height: 100vh;
+      width: 250px;
+      background-color: #1d1d1ee0;
+      backdrop-filter: blur(12px);
+      list-style: none;
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      }
+    .sidebar li{
+    width: 95%;
+    }
+    .sidebar a{
+    width: 95%;
+    }
+    .menu-button{
+    display: none;
+    }
+body{
+    font-family: poppins;
+    margin: 0px;
+    background-color: #1d1d1e;
+}
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1, h2{
+    text-align: center;
+    color: red;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+a{
+  color: rgb(161, 0, 0);
+}
+.tekst_overskrift{
+    margin-left: auto;
+    margin-bottom: 0px;
+    color: rgb(161, 0, 0);
+}
+.tekst_dato{
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: gray;
+}
+.tekst_nyhet{
+    margin-right: auto;
+    margin-top: 0px;
+    width: 50%;
+    color: grey;
+}
+.tekst_bilde{
+    display: block;
+    width: 400px;
+}
+  .center {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+@media(max-width: 800px){
+  .hideOnMobile{
+    display: none;
+  }
+  .menu-button{
+    display: block;
+  }
+  }
+  @media(max-width: 450px){
+  .sidebar{
+    width: 95%;
+  }
+  .logo_stor, .forsidebilde{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0px;
+  }
+  .om_tekst{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .tekst_overskrift{
+    width: 100%;
+  }
+  .tekst_nyhet{
+      width: 100%;
+  }
+  .tekst_bilde{
+      width: 100%;
+  }
+  iframe{
+    width: 100%;
+  }
+  h1{
+    font-size: x-large;
+  }
+  }
